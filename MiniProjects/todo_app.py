@@ -1,5 +1,4 @@
 """
-Simple To-Do List (Beginner-friendly)
 
 This is a small command-line application that lets you:
  - add tasks
@@ -7,13 +6,8 @@ This is a small command-line application that lets you:
  - mark tasks as completed
  - delete tasks
 
-The code is written with clear comments and simple input checks so a beginner
-can read and understand how it works.
 """
 
-# In-memory list to store tasks. Each task is a dictionary with keys:
-# - 'text': the task description (string)
-# - 'done': completion flag (bool)
 tasks = []
 
 
